@@ -1,0 +1,87 @@
+/* ───────── PTG v2 · brand tokens ─────────
+   Matches premiertruckinggroup.com — clean corporate navy + white + warm gold.
+*/
+
+:root, [data-palette="premier"] {
+  --bg:        #F5F7FB;
+  --bg-2:      #EDF1F7;
+  --paper:     #FFFFFF;
+  --ink:       #0A1A2F;       /* deep navy text */
+  --ink-2:     #1F2D44;
+  --muted:     #64748B;
+  --muted-2:   #94A3B8;
+  --rule:      rgba(10, 26, 47, .08);
+  --rule-2:    rgba(10, 26, 47, .16);
+
+  --primary:   #0B2A5B;       /* deep navy CTA */
+  --primary-2: #0E3D8C;       /* hover */
+  --primary-ink:#FFFFFF;
+  --primary-soft: #E6EDF8;    /* primary tint bg */
+
+  --accent:    #F4B400;       /* warm gold (truck-stripe yellow, but modern) */
+  --accent-2:  #D89A00;
+  --accent-ink:#0A1A2F;
+
+  --good:      #16A34A;
+  --good-soft: #DCFCE7;
+  --bad:       #DC2626;
+  --bad-soft:  #FEE2E2;
+  --warn:      #D97706;
+
+  --shadow-sm: 0 1px 2px rgba(10, 26, 47, .06);
+  --shadow:    0 4px 18px rgba(10, 26, 47, .08);
+  --shadow-lg: 0 12px 40px rgba(10, 26, 47, .12);
+
+  --radius:    12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+}
+
+[data-palette="midnight"] {
+  --bg:        #0A1A2F;
+  --bg-2:      #112341;
+  --paper:     #122545;
+  --ink:       #F8FAFC;
+  --ink-2:     #CBD5E1;
+  --muted:     #94A3B8;
+  --muted-2:   #64748B;
+  --rule:      rgba(255,255,255,.10);
+  --rule-2:    rgba(255,255,255,.20);
+  --primary:   #4F8DEC;
+  --primary-2: #6BA2F2;
+  --primary-ink:#0A1A2F;
+  --primary-soft: rgba(79, 141, 236, .14);
+  --accent:    #F4B400;
+  --accent-ink:#0A1A2F;
+  --good:      #34D399;
+  --good-soft: rgba(52, 211, 153, .14);
+  --bad:       #F87171;
+  --bad-soft:  rgba(248, 113, 113, .14);
+}
+
+[data-palette="emerald"] {
+  --primary:   #0F766E;
+  --primary-2: #0E5F58;
+  --primary-soft: #D1FAE5;
+  --accent:    #F4B400;
+}
+
+[data-palette="claret"] {
+  --primary:   #9F1239;
+  --primary-2: #7F102E;
+  --primary-soft: #FEE2E2;
+  --accent:    #F4B400;
+}
+
+/* density */
+[data-density="compact"] { --row-gap: 14px; --field-h: 44px; --pad-card: 24px; }
+[data-density="regular"] { --row-gap: 18px; --field-h: 50px; --pad-card: 32px; }
+[data-density="comfy"]   { --row-gap: 22px; --field-h: 56px; --pad-card: 40px; }
+:root { --row-gap: 18px; --field-h: 50px; --pad-card: 32px; }
+
+/* typography */
+:root {
+  --font-display: "Plus Jakarta Sans", "Manrope", system-ui, sans-serif;
+  --font-body:    "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
